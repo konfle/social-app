@@ -49,11 +49,11 @@ function App() {
       children:[
         {
           path: "/",
-          element: <Profile />
+          element: <Home />
         },
         {
           path: "/profile/:id",
-          element: <Home />
+          element: <Profile />
         },
       ]
     },
